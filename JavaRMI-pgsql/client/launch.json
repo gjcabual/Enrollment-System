@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
+            "mainClass": "Client",
+            "classPaths": [
+                "${workspaceFolder}/lib/postgresql-42.7.3.jar",
+                "${workspaceFolder}/bin"
+            ]
+        }
+    ]
+}
